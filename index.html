@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="Style/PageStyle.css">
+</head>
+<body>
+    <!-- Floating Background Elements -->
+    <div class="floating-element floating-circle" style="top: 10%; left: 10%;"></div>
+    <div class="floating-element floating-square" style="top: 20%; right: 15%;"></div>
+    <div class="floating-element floating-triangle" style="top: 60%; left: 5%;"></div>
+    <div class="floating-element floating-circle" style="bottom: 15%; left: 20%;"></div>
+    <div class="floating-element floating-square" style="bottom: 25%; right: 10%;"></div>
+    <div class="floating-element floating-triangle" style="bottom: 40%; right: 25%;"></div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Mon Portfolio</h1>
+            <img src="assets/images/MaPhoto.png" class="profile-img">
+
+            
+            <div class="description">
+                <p>Bonjour ! Je suis un développeur fullstack passionné par la création d'applications web modernes et performantes. 
+                Avec une expertise en développement front-end et back-end, je transforme les idées en solutions digitales innovantes. 
+                Mon approche combine créativité technique et rigueur professionnelle pour livrer des projets de qualité.</p>
+            </div>
+            <nav class="nav-buttons">
+                <a href="#projets" class="nav-btn">Mes Projets</a>
+                <a href="#etudes" class="nav-btn">Mes Études</a>
+                <a href="#experiences" class="nav-btn">Expériences Pro</a>
+                <a href="#hobbies" class="nav-btn">Mes Hobbies</a>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Projets Section -->
+    <section id="projets" class="section">
+        <div class="container">
+            <h2>Mes Projets</h2>
+            <div class="section-content">
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Application E-commerce</h3>
+                        <p>Développement d'une plateforme e-commerce complète avec React.js et Node.js, intégrant un système de paiement sécurisé et une interface d'administration.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>API REST Microservices</h3>
+                        <p>Conception et développement d'une architecture microservices avec Docker, permettant une scalabilité optimale et une maintenance simplifiée.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Dashboard Analytics</h3>
+                        <p>Création d'un tableau de bord interactif pour l'analyse de données en temps réel, utilisant Vue.js et des graphiques dynamiques.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Études Section -->
+    <section id="etudes" class="section">
+        <div class="container">
+            <h2>Mes Études</h2>
+            <div class="section-content">
+                <div class="project-card">
+                    <h3>Master en Informatique</h3>
+                    <p>Spécialisation en développement web et ingénierie logicielle. Formation approfondie en algorithmique, bases de données, et architectures distribuées.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Licence Informatique</h3>
+                    <p>Fondamentaux de la programmation, mathématiques appliquées, et introduction aux systèmes d'information.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Certifications</h3>
+                    <p>AWS Solutions Architect, Google Cloud Platform, certifications en React.js et Node.js pour rester à jour avec les dernières technologies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expériences Section -->
+    <section id="experiences" class="section">
+        <div class="container">
+            <h2>Expériences Professionnelles</h2>
+            <div class="section-content">
+                <div class="project-card">
+                    <h3>Développeur Fullstack Senior - TechCorp</h3>
+                    <p>Lead technique sur des projets d'envergure, encadrement d'équipe junior, architecture de solutions scalables et optimisation des performances.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Développeur Web - StartupInnovante</h3>
+                    <p>Développement rapide de MVP, intégration d'APIs tierces, mise en place de CI/CD et collaboration étroite avec les équipes produit.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Stage Développement - WebAgency</h3>
+                    <p>Première expérience professionnelle, développement de sites vitrines et e-commerce, apprentissage des bonnes pratiques du développement web.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="section">
+        <div class="container">
+            <h2>Mes Hobbies</h2>
+            <div class="section-content">
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Développement Open Source</h3>
+                        <p>Contribution à des projets open source, création de librairies JavaScript et partage de connaissances avec la communauté.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Veille Technologique</h3>
+                        <p>Passion pour les nouvelles technologies, participation à des conférences tech et expérimentation avec les frameworks émergents.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Gaming & Design</h3>
+                        <p>Création de jeux web en JavaScript, design d'interfaces utilisateur et exploration des tendances UX/UI modernes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <script src="scripts/AnimationScript.js"></script>
+</body>
+</html>
